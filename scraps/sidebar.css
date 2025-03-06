@@ -1,0 +1,21 @@
+.sidebar {
+    height: 98.5%;
+    width: 101%;
+    background-color: Firebrick;
+    padding-top: 20px;
+	grid-column: 2;
+}
+
+.sidebar a {
+	text-align: center;
+	font-family: Cursive;
+	font-size: 20px;
+    display: block;
+    color: Cornsilk;
+    padding: 20px 0 20px 0;
+    text-decoration: none;
+}
+
+.sidebar a:hover {
+    background-color: Salmon;
+}

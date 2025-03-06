@@ -1,0 +1,35 @@
+header {
+	color: Green;
+	font-family: Cursive;
+	font-size: 20px;
+	text-align: center;
+	padding: 25px 0px 0 0px;
+
+	text-shadow: 2px 0 SpringGreen, -2px 0 SpringGreen, 0 2px SpringGreen, 0 -2px SpringGreen,
+               1px 1px SpringGreen, -1px -1px SpringGreen, 1px -1px SpringGreen, -1px 1px SpringGreen;
+	
+	background-image: url('file://D:/c++/web/image/wallpaper.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	grid-column: 1 / span 2;
+}
+
+.TitleSub {
+	color: PaleGreen;
+	font-family: Cursive;
+	font-size: 20px;
+	text-align: center;
+	padding: 25px 0px 25px 0px;
+	text-shadow: 2px 0 LightSeaGreen, -2px 0 LightSeaGreen, 0 2px LightSeaGreen, 0 -2px LightSeaGreen,
+               1px 1px LightSeaGreen, -1px -1px LightSeaGreen, 1px -1px LightSeaGreen, -1px 1px LightSeaGreen;
+}
+
+.header img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}

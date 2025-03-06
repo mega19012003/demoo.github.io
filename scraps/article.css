@@ -1,0 +1,51 @@
+.content {
+	text-align: center;
+	display: grid;
+	grid-template-columns: 30% 30% 30%;
+	background: rgba(217, 234, 215,0.5);
+	border-radius: 10px;
+	margin-left: 50px; 
+	margin-right: 70px;
+	padding-left: 13%;
+	gap: 20px;
+}
+
+.column {
+	color: Cornsilk;
+	font-weight: bold;
+	background: rgba(0,0,0,0.5);
+	border-radius: 25px;
+	text-align: center;
+	width: 300px;
+	display: grid;
+	grid-template-columns: 100%;
+	
+}
+
+.column .button {
+	background-color: Firebrick;
+	border: none;
+	color: Cornsilk;
+	padding: 10px 0 10px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 20px;
+	cursor: pointer;
+	border-radius: 0 0 25px 25px;
+}
+
+.column .img {
+	width:200px;
+	object-fit: cover;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.column img{
+	width: 200px;
+	height: 300px;
+	object-fit: cover;
+	margin-left: auto;
+	margin-right: auto;
+	
+}

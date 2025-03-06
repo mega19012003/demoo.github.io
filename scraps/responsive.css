@@ -1,0 +1,19 @@
+@media(max-witdh: 576px) {
+	
+	.content {
+		grid-template-columns: 1fr;
+	}
+	
+	.column {
+		width:100%;
+		margin-bottom:20px;
+	}
+	
+	.sidebar {
+		grid-column: 1/span 2;
+	}
+	
+	.footer {
+		grid template-columns: 1fr;
+	}
+}

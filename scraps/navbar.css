@@ -1,0 +1,64 @@
+/*overall*/
+nav {
+	background-color: Firebrick;
+	margin-bottom: 20px;
+	grid-column: 1/span 2;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+}
+
+/*button setting*/
+nav ul li button {
+	background-color: Firebrick;
+	color: Cornsilk;
+	font-family: Cursive;
+	padding: 16px;
+	font-size: 20px;
+	border: none;
+	cursor: pointer;
+	margin-right: 20px;
+	border-radius: 5px;
+}
+
+nav ul li button:hover{
+	background-color: Salmon;
+}
+
+nav ul li input {
+	margin-top:20px;
+	width: 150%;
+}
+
+/*Content inside button*/
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: Firebrick;
+	color: Cornsilk;
+	padding: 10px 0 10px 0;
+	gap: 10px;
+}
+.dropdown-content a{
+	text-align:center;
+	font-family: Cursive;
+	font-size: 20px;
+	display: inline-block;
+    display: block;
+    color: Cornsilk;
+    padding: 20px;
+    text-decoration: none;
+}
+.dropdown-content a:hover{
+	 background-color: Salmon;
+}
+.dropdown:hover .dropdown-content {
+	display: grid;
+	align-content:center;
+}

@@ -1,0 +1,23 @@
+.pagination {
+	grid-column: 1/span 3;
+	margin: 20px 0 20px;
+	text-decoration: none;
+	margin-left: 33%;
+}
+.pagination a {
+	font-size: 15px;
+	font-family: Cursive;
+	color: Cornsilk;
+	float: left;
+	padding: 8px 16px;
+	text-decoration: none;
+	background-color: FireBrick;
+}
+.pagination a.active {
+	background-color: FireBrick;
+	color: white;
+	border-radius: 5px;
+}
+.pagination a:hover {
+    background-color: Salmon;
+}

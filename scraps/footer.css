@@ -1,0 +1,16 @@
+footer {
+	background-color: Firebrick;
+	display: grid;
+	margin-top: 10px;
+	grid-column: 1 / span 2;
+}
+
+.info {
+	font-family: Cursive;
+	padding: 0 0 0 20px;
+	font-size: 20px;
+	float: left;
+	color: White;
+
+}
+
